@@ -1,6 +1,7 @@
 {
     "name": "User",
     "alias": "user",
+    "version": "0.1.0",
     "description": "",
     "keywords": [],
     "priority": 0,
