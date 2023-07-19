@@ -1,0 +1,35 @@
+{
+    "name": "tirilo555/user",
+    "type": "asgard-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Taras Zahorskyi",
+            "email": "tirilo555@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "composer/installers": "~2.2",
+        "spatie/laravel-permission": "^5.10.2",
+        "spatie/laravel-html": "^3.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\User\\": ""
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
